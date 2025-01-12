@@ -9,7 +9,7 @@ import Weather from './component/Weather.tsx';
 import Footer from './component/Footer.tsx';
 
 const Header =  styled.header `
-    position:sticky; top:0; left:0; display:flex; align-items:center; justify-content:space-between; width:100%; height: 64px; padding: 0 20px; background-color:#fff; border-bottom: 1px solid #ccc;
+    position:sticky; top:0; left:0; display:flex; align-items:center; justify-content:space-between; width:100%; height: 64px; padding: 0 20px; background-color:#fff; border-bottom: 1px solid #eaeaea; z-index: 3;
 
     h1 {
       display:flex; align-items:center; gap:5px; font-size: 2.1rem; font-weight: 600; letter-spacing: 0.02rem;
@@ -19,9 +19,6 @@ const Header =  styled.header `
   `
 
 const App:React.FC = () => {
-
-  
-  
 
   return (
     <div className="App">
