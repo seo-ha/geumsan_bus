@@ -10,7 +10,7 @@ const Container = styled.ul `
 
 const WeatherBox = styled.li `
    
-  width: calc(50% - 5px); height:auto; padding:20px; text-align:center; background-color: #fff; border-radius: 10px;
+  position:relative; width: calc(50% - 5px); height:auto; padding:20px; text-align:center; background-color: #fff; border-radius: 10px;
 
   h2 {font-size:1.3rem;}
   strong {display:block; margin:5px auto; font-size:2rem; font-weight:600;}
@@ -27,6 +27,7 @@ const WeatherBox = styled.li `
     h2 {font-size:1.5rem;}
     strong {font-size:3.8rem;}
     p {font-size:1.5rem;}
+    span {position:absolute; top:15px; right:15px; font-size:1.3rem; color:#999999;}
   }
 `
 
@@ -43,10 +44,10 @@ const Weather:React.FC = () => {
     try {
       const APP_KEY = process.env.REACT_APP_WEATHER_KEY;
       const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=${currPosition.lat}&lon=${currPosition.lon}&appid=${APP_KEY}`);
-
+      
       const middayData = response.data.list.filter((el) => {
         const time = el.dt_txt.split(' ')[1];
-        return time === '00:00:00';
+        return time === '15:00:00';
       });
 
       setData(middayData)
@@ -57,6 +58,7 @@ const Weather:React.FC = () => {
     }
   } 
 
+  //내 위치 찾기
   const getLocation = () =>{
     navigator.geolocation.getCurrentPosition((position)=>{
       setCurrPosition({
@@ -88,8 +90,11 @@ const Weather:React.FC = () => {
       <Container>
 
         {
-          data.map((item,idx)=>{
+          data.map((item:any,idx:number)=>{
             return <WeatherBox key={idx} className={idx === 0 ? 'full' : ''}>
+              {
+                idx === 0 ? <span>15:00 기준</span> : ''
+              }
               <h2>{item.dt_txt.split(' ')[0]}</h2>
               <strong>{(item.main.temp - 273.15).toFixed(1)}°</strong>
               <p className='ico'><img src={`https://openweathermap.com/img/w/${item.weather[0].icon}.png`} alt="" /></p>

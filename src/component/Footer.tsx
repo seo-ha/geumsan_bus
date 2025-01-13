@@ -24,6 +24,7 @@ const Footer:React.FC = () => {
 
     const [activeLink, setActiveLink] = useState<string>('')
     const links = document.querySelectorAll('footer a');
+    const location = useLocation();
 
     function onClickLink(event){
       
@@ -35,25 +36,12 @@ const Footer:React.FC = () => {
       
     }
 
-    // function checkPrams(links, prams) {
-    //   links.forEach((el)=>{
-    //     let getAttr = el.getAttribute('href');
-    //     if(prams.search === getAttr) {
-    //       links.forEach(item => item.classList.remove('on'))
-    //       el.classList.add('on');
-          
-    //     }
-    //   })
-    // }
-
-    const location = useLocation();
     useEffect(() => {
       const currentPrams = location.pathname; // URL 쿼리 가져오기
       setActiveLink(currentPrams);
     }, [location]);
 
-    
-
+  
   return (
     <FooterStyle>
         <Link to={'/'} className={activeLink === '' ? "on" : ""} onClick={onClickLink}> {activeLink === '/' || activeLink === '' ? < IoBus/> : < IoBusOutline/> } <span>시외/고속</span></Link>

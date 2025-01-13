@@ -1,0 +1,39 @@
+[
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "서남부터미널(진산발)",
+        "destination" : "당디,행정,지방,신대,지량,안영",
+        "info" : [
+            {
+                "times" : "07시 00분",
+                "number" : "81"
+            },
+            {
+                "times" : "10시 25분",
+                "number" : "81"
+            },
+            {
+                "times" : "13시 55분",
+                "number" : "81"
+            },
+            {
+                "times" : "16시 40분",
+                "number" : "81"
+            }
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "서남부터미널(진산발)",
+        "info" : [
+            {
+                "times" : "",
+                "number" : ""
+            },
+            {
+                "times" : "",
+                "number" : ""
+            }
+        ]
+    }
+]
