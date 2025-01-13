@@ -28,10 +28,10 @@ const App:React.FC = () => {
       </Header>
 
       <Routes>
-        <Route path='/' element={<Intercity/>}/>
-        <Route path='expressBus' element={<Express/>}/>
-        <Route path='cityBus' element={<Citybus/>}/>
-        <Route path='weather' element={<Weather/>}/>
+        <Route path='./' element={<Intercity/>}/>
+        <Route path='./expressBus' element={<Express/>}/>
+        <Route path='./cityBus' element={<Citybus/>}/>
+        <Route path='./weather' element={<Weather/>}/>
       </Routes>
 
       <Footer/>
