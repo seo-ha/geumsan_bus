@@ -3,12 +3,12 @@
   "name": "금산버슈",
   "icons": [
     {
-      "src" : "./img/favicon.png",
-      "sizes" : "32x32 24x24",
+      "src" : "img/logo.png",
+      "sizes" : "512x512 192x192 64x64 32x32 24x24",
       "type" :"image/png" 
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
