@@ -29,9 +29,9 @@ const App:React.FC = () => {
 
       <Routes>
         <Route path='/' element={<Intercity/>}/>
-        <Route path='/expressBus' element={<Express/>}/>
-        <Route path='/cityBus' element={<Citybus/>}/>
-        <Route path='/weather' element={<Weather/>}/>
+        <Route path='/Express' element={<Express/>}/>
+        <Route path='/Citybus' element={<Citybus/>}/>
+        <Route path='/Weather' element={<Weather/>}/>
         <Route path='*' element={<Intercity/>}/>
       </Routes>
 
