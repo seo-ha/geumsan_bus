@@ -1,6 +1,6 @@
 
 import React from 'react';
-import {Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
 import Intercity from './component/Intercity';
 import Express from './component/Express';
@@ -27,13 +27,15 @@ const App:React.FC = () => {
         <h1>금산버슈 <img src={process.env.PUBLIC_URL+'/img/logo.svg'} alt="" /></h1>
       </Header>
 
-      <Routes>
-        <Route path='/' element={<Intercity/>}/>
-        <Route path='/Express' element={<Express/>}/>
-        <Route path='/Citybus' element={<Citybus/>}/>
-        <Route path='/Weather' element={<Weather/>}/>
-        <Route path='*' element={<Intercity/>}/>
-      </Routes>
+      <Router basename="/geumsan_bus">
+        <Routes>
+          <Route path='/' element={<Intercity/>}/>
+          <Route path='/Express' element={<Express/>}/>
+          <Route path='/Citybus' element={<Citybus/>}/>
+          <Route path='/Weather' element={<Weather/>}/>
+          <Route path='*' element={<Intercity/>}/>
+        </Routes>
+      </Router>
 
       <Footer/>
      

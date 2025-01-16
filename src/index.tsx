@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   // <React.StrictMode>
-    <BrowserRouter basename="/geumsan_bus/">
+    <BrowserRouter>
     <App />
     </BrowserRouter>
   // </React.StrictMode>
