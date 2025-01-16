@@ -93,8 +93,39 @@ const Intercity:React.FC = () => {
                 {
 
                     selectCity.arrCity === '선택' 
-                    ? (busData.map((item:any, idx : number) => {
-                        return <li key={idx}>
+                    ? (busData.map((item) => {
+                        const times = item.times || [null];
+                        return times.map((el,idx)=> {
+                            return <li key={idx}>
+                                <p className='name'>{item.depPlaceNm} - {item.arrPlaceNm}</p>
+                                <GradeNm $fontcolor={item.gradeNm === '고속' ? '#a10f0f' : item.gradeNm === '우등' ? '#b5830d' : '#999'}>
+                                    {item.gradeNm}
+                                </GradeNm>
+                                {
+                                    item.destination ? <p className='destination'>{item.destination}</p> : ''
+                                } 
+                                <p className='charge'> {parseInt(item.charge).toLocaleString()}원</p>
+                                <p className='time'>
+                                    <small>출발시간 {item.arrPlandTime ? ' - 도착시간' : ''}</small>
+                                    {
+                                        el
+                                        ? (<span>{el}</span>)
+                                        : newSetDate(item.depPlandTime) 
+                                    }
+                                    {item.arrPlandTime ? ` - ` : ''}
+                                    {
+                                        item.arrPlandTime ? newSetDate(item.arrPlandTime) : ''
+                                    }
+                                </p>
+                            </li>
+                            }) 
+                        }))
+
+                    : selectBusData.length === 0 ? (<Nolist>노선이 없습니다.</Nolist>)
+
+                       : (selectBusData.map((item) => {
+                            return item.times.map((el,idx)=> {
+                                return <li key={idx}>
                                     <p className='name'>{item.depPlaceNm} - {item.arrPlaceNm}</p>
                                     <GradeNm $fontcolor={item.gradeNm === '고속' ? '#a10f0f' : item.gradeNm === '우등' ? '#b5830d' : '#999'}>
                                         {item.gradeNm}
@@ -107,7 +138,7 @@ const Intercity:React.FC = () => {
                                         <small>출발시간 {item.arrPlandTime ? ' - 도착시간' : ''}</small>
                                         {
                                             item.times 
-                                            ? item.times.map((el: any, idx: any) => <span key={idx}>{el}</span>) 
+                                            ? (<span>{el}</span>)
                                             : newSetDate(item.depPlandTime) 
                                         }
                                         {item.arrPlandTime ? ` - ` : ''}
@@ -116,33 +147,7 @@ const Intercity:React.FC = () => {
                                         }
                                     </p>
                                 </li>
-                        }))
-
-                    : selectBusData.length === 0 ? (<Nolist>노선이 없습니다.</Nolist>)
-
-                       : (selectBusData.map((item:any, idx : number) => {
-                            return <li key={idx}>
-                                        <p className='name'>{item.depPlaceNm} - {item.arrPlaceNm}</p>
-                                        <GradeNm $fontcolor={item.gradeNm === '고속' ? '#a10f0f' : item.gradeNm === '우등' ? '#b5830d' : '#999'}>
-                                            {item.gradeNm}
-                                        </GradeNm>
-                                        {
-                                            item.destination ? <p className='destination'>{item.destination}</p> : ''
-                                        } 
-                                        <p className='charge'> {parseInt(item.charge).toLocaleString()}원</p>
-                                        <p className='time'>
-                                            <small>출발시간 {item.arrPlandTime ? ' - 도착시간' : ''}</small>
-                                            {
-                                                item.times 
-                                                ? item.times.map((el: any, idx: any) => <span key={idx}>{el}</span>) 
-                                                : newSetDate(item.depPlandTime) 
-                                            }
-                                            {item.arrPlandTime ? ` - ` : ''}
-                                            {
-                                                item.arrPlandTime ? newSetDate(item.arrPlandTime) : ''
-                                            }
-                                        </p>
-                                    </li>
+                                }) 
                             }))
                 }
             </BusInfo>

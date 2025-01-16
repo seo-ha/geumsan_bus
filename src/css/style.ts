@@ -30,7 +30,8 @@ export const BusInfo = styled.ul `
                     & + span { margin-top:8px; padding-top:8px; border-top:1px solid #d7d7d7;}
                 }
             }
-            &.destination {display:block; margin:8px 0 15px;font-size: 1.5rem;}  
+            &.destination {display:block; margin:8px 0 15px;font-size: 1.5rem;} 
+            &:has( + .charge) {margin-bottom:0;} 
         }
     }
   
