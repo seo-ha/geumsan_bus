@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/geumsan_bus/static/css/main.58719048.css",
-    "main.js": "/geumsan_bus/static/js/main.5e42d7a9.js",
+    "main.js": "/geumsan_bus/static/js/main.e4c07d44.js",
     "static/media/Pretendard-Light.otf": "/geumsan_bus/static/media/Pretendard-Light.2cb5a195aebe2c6b471f.otf",
     "static/media/Pretendard-SemiBold.otf": "/geumsan_bus/static/media/Pretendard-SemiBold.0cef3019f4c56716d088.otf",
     "static/media/Pretendard-Medium.otf": "/geumsan_bus/static/media/Pretendard-Medium.4de9e34f45c4dd53666c.otf",
@@ -12,10 +12,10 @@
     "static/media/Pretendard-ExtraLight.otf": "/geumsan_bus/static/media/Pretendard-ExtraLight.b2f0f7193307817b6f38.otf",
     "index.html": "/geumsan_bus/index.html",
     "main.58719048.css.map": "/geumsan_bus/static/css/main.58719048.css.map",
-    "main.5e42d7a9.js.map": "/geumsan_bus/static/js/main.5e42d7a9.js.map"
+    "main.e4c07d44.js.map": "/geumsan_bus/static/js/main.e4c07d44.js.map"
   },
   "entrypoints": [
     "static/css/main.58719048.css",
-    "static/js/main.5e42d7a9.js"
+    "static/js/main.e4c07d44.js"
   ]
 }
