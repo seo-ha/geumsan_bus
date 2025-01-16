@@ -32,6 +32,7 @@ const App:React.FC = () => {
         <Route path='/geumsan_bus/expressBus' element={<Express/>}/>
         <Route path='/geumsan_bus/cityBus' element={<Citybus/>}/>
         <Route path='/geumsan_bus/weather' element={<Weather/>}/>
+        <Route path='*' element={<Intercity/>}/>
       </Routes>
 
       <Footer/>
