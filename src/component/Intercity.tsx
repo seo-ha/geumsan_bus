@@ -27,7 +27,7 @@ const Intercity:React.FC = () => {
             
             const APP_KEY = process.env.REACT_APP_ERMINAL_KEY;
             const busDataBox : BusItem[] = [];
-            let url = ['http://apis.data.go.kr/1613000/ExpBusInfoService/getStrtpntAlocFndExpbusInfo','http://apis.data.go.kr/1613000/SuburbsBusInfoService/getStrtpntAlocFndSuberbsBusInfo'];
+            let url = ['https://apis.data.go.kr/1613000/ExpBusInfoService/getStrtpntAlocFndExpbusInfo','http://apis.data.go.kr/1613000/SuburbsBusInfoService/getStrtpntAlocFndSuberbsBusInfo'];
             let depTerminal = ['NAEK330', 'NAI3273501'];
 
             const today = new Date();
