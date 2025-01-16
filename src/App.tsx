@@ -2,11 +2,11 @@
 import React from 'react';
 import {Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
-import Intercity from './component/Intercity.tsx';
-import Express from './component/Express.tsx';
-import Citybus from './component/Citybus.tsx';
-import Weather from './component/Weather.tsx';
-import Footer from './component/Footer.tsx';
+import Intercity from './component/Intercity';
+import Express from './component/Express';
+import Citybus from './component/Citybus';
+import Weather from './component/Weather';
+import Footer from './component/Footer';
 
 const Header =  styled.header `
     position:sticky; top:0; left:0; display:flex; align-items:center; justify-content:space-between; width:100%; height: 64px; padding: 0 20px; background-color:#fff; border-bottom: 1px solid #eaeaea; z-index: 3;
