@@ -1,7 +1,13 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
- 
+  "short_name": "금산버슈",
+  "name": "금산버슈",
+  "icons": [
+    {
+      "src" : "./img/favicon.png",
+      "sizes" : "32x32 24x24",
+      "type" :"image/png" 
+    }
+  ],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
