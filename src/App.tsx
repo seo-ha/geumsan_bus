@@ -27,15 +27,13 @@ const App:React.FC = () => {
         <h1>금산버슈 <img src={process.env.PUBLIC_URL+'/img/logo.svg'} alt="" /></h1>
       </Header>
 
-      <Router basename='/geumsan_bus'>
-        <Routes>
-          <Route path='/' element={<Intercity/>}/>
-          <Route path='/Express' element={<Express/>}/>
-          <Route path='/Citybus' element={<Citybus/>}/>
-          <Route path='/Weather' element={<Weather/>}/>
-        </Routes>
-      </Router>
-
+      <Routes>
+        <Route path='/' element={<Intercity/>}/>
+        <Route path='/Express' element={<Express/>}/>
+        <Route path='/Citybus' element={<Citybus/>}/>
+        <Route path='/Weather' element={<Weather/>}/>
+      </Routes>
+ 
       <Footer/>
      
 
