@@ -6,34 +6,134 @@
         "info" : [
             {
                 "times" : "07시 00분",
-                "number" : "81"
+                "destination" : ""
             },
             {
                 "times" : "10시 25분",
-                "number" : "81"
+                "destination" : ""
             },
             {
                 "times" : "13시 55분",
-                "number" : "81"
+                "destination" : ""
             },
             {
                 "times" : "16시 40분",
-                "number" : "81"
+                "destination" : ""
             }
         ]
     },
     {   
         "depPlaceNm" : "금산",
-        "arrPlaceNm" : "서남부터미널(진산발)",
+        "arrPlaceNm" : "진산방면",
+        "destination" : "읍내,파초,초미동",
         "info" : [
             {
-                "times" : "",
-                "number" : ""
+                "times" : "06시 30분",
+                "destination" : "금성면,원터"
             },
             {
-                "times" : "",
-                "number" : ""
+                "times" : "07시 00분",
+                "destination" : ""
+            },
+            {
+                "times" : "17시 50분",
+                "destination" : ""
+            }
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "남이방면",
+        "destination" : "읍내,석동,자연휴양림",
+        "info" : [
+            {
+                "times" : "09시 20분",
+                "destination" : ""
+            },
+            {
+                "times" : "14시 40분",
+                "destination" : ""
+            }
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "오룡방면",
+        "destination" : "읍내,상지말,알미",
+        "info" : [
+            {
+                "times" : "12시 40분",
+                "destination" : ""
+            }
+        ]
+    },
+    {   
+        "depPlaceNm" : "서남부터미널",
+        "arrPlaceNm" : "진산",
+        "destination" : "서남부터미널,지량,신대,지방,행정,묵산",
+        "info" : [
+            {
+                "times" : "08시 45분",
+                "destination" : ""
+            },
+            {
+                "times" : "12시 30분",
+                "destination" : ""
+            },
+            {
+                "times" : "15시 20분",
+                "destination" : ""
+            },
+            {
+                "times" : "18시 40분",
+                "destination" : ""
+            }
+        ]
+    },
+    {   
+        "depPlaceNm" : "진산방면",
+        "arrPlaceNm" : "금산",
+        "destination" : "진산 발 초미동,파초,읍내경유",
+        "info" : [
+            {
+                "times" : "08시 05분",
+                "destination" : ""
+            },
+            {
+                "times" : "18시 45분",
+                "destination" : ""
+            },
+            {
+                "times" : "19시 50분",
+                "destination" : "진산 발 원터,금성면"
+            }
+        ]
+    },
+    {   
+        "depPlaceNm" : "남이이방면",
+        "arrPlaceNm" : "금산",
+        "destination" : "남이자연휴양림 발 건천,석동,읍내경유",
+        "info" : [
+            {
+                "times" : "10시 50분",
+                "destination" : ""
+            },
+            {
+                "times" : "16시 10분",
+                "destination" : ""
+            }
+        ]
+    },
+    {   
+        "depPlaceNm" : "오룡방면",
+        "arrPlaceNm" : "금산",
+        "destination" : "오룡 발 알미,상지말,읍내경유",
+        "info" : [
+            {
+                "times" : "13시 35분",
+                "destination" : ""
             }
         ]
     }
+    
 ]

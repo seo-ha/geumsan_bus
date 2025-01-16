@@ -11,7 +11,7 @@ const FooterStyle = styled.footer `
     display: flex; align-items: center; justify-content: center; flex-direction: column; width: 100%; height: 100%; 
 
     svg {stroke: #ccc; fill:#ccc; font-size: 2.5rem;}
-    span {display:block; margin-top:7px; font-size: 1.3rem;font-weight:500; color: #ccc;}
+    span {display:block; margin-top:7px; font-size: 1.2rem;font-weight:500; color: #ccc;}
 
     &.on {
       svg {stroke: #fff; fill:#fff;}

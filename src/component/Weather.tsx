@@ -14,20 +14,17 @@ const WeatherBox = styled.li `
 
   h2 {font-size:1.3rem;}
   strong {display:block; margin:5px auto; font-size:2rem; font-weight:600;}
+  span {position:absolute; top:10px; right:10px; font-size:1.2rem; color:#999999;}
   p {
-     font-size:1.3rem;
-     &.ico img {width:55px;}
-     &.humidity {}
-     &.tempNum {display:block; margin:5px 0;}
-     &.info {}
-  } 
+     font-size:1.3rem; word-break: keep-all;
+     &.ico img {width:50px;}
+    } 
   
   &.full {
-    width: 100%; padding: 25px 20px;
+    width: 100%;
     h2 {font-size:1.5rem;}
     strong {font-size:3.8rem;}
     p {font-size:1.5rem;}
-    span {position:absolute; top:15px; right:15px; font-size:1.3rem; color:#999999;}
   }
 `
 
@@ -36,6 +33,7 @@ const Weather:React.FC = () => {
   const [loading , setLoading] = useState<boolean>(true); //로딩
   const [currPosition, setCurrPosition] = useState<{lat:number; lon:number} | null>(null);//현재 위치
   const [data , setData] = useState<[]>([]); //데이터
+  const [todayData , setTodayData] = useState<[]>([]); //데이터
 
   async function setWeather() {
 
@@ -43,13 +41,15 @@ const Weather:React.FC = () => {
 
     try {
       const APP_KEY = process.env.REACT_APP_WEATHER_KEY;
-      const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=${currPosition.lat}&lon=${currPosition.lon}&appid=${APP_KEY}`);
-      
+      const responseToday = await axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${currPosition.lat}&lon=${currPosition.lon}&appid=${APP_KEY}&units=metric&lang=kr`);
+      const response = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?lat=${currPosition.lat}&lon=${currPosition.lon}&appid=${APP_KEY}&units=metric&lang=kr`);
+
       const middayData = response.data.list.filter((el) => {
         const time = el.dt_txt.split(' ')[1];
         return time === '15:00:00';
       });
-
+      
+      setTodayData(responseToday.data)
       setData(middayData)
       setLoading(false)
       
@@ -83,25 +83,31 @@ const Weather:React.FC = () => {
     return weatherDescKo.find((el) => el[code])?.[code];
   }
 
+  
+  
+
   return (
 
     loading === false ? //로딩 확인
 
       <Container>
 
+        <WeatherBox className='full'>
+          <h2>오늘</h2>
+          <strong>{(todayData.main.temp).toFixed(1)}°</strong>
+          <p className='ico'><img src={`https://openweathermap.com/img/w/${todayData.weather[0].icon}.png`} alt="" /></p>
+          <p className='info'>{CodeKoText(todayData.weather[0].id)}</p>
+        </WeatherBox>
+
         {
           data.map((item:any,idx:number)=>{
-            return <WeatherBox key={idx} className={idx === 0 ? 'full' : ''}>
-              {
-                idx === 0 ? <span>15:00 기준</span> : ''
-              }
-              <h2>{item.dt_txt.split(' ')[0]}</h2>
-              <strong>{(item.main.temp - 273.15).toFixed(1)}°</strong>
-              <p className='ico'><img src={`https://openweathermap.com/img/w/${item.weather[0].icon}.png`} alt="" /></p>
-              <p className='humidity'>습도 {item.main.humidity}</p>
-              <p className='tempNum'>최고 {(item.main.temp_max - 273.15).toFixed(0)}°  최저 {(item.main.temp_min - 273.15).toFixed(0)}°</p>
-              <p className='info'>{CodeKoText(item.weather[0].id)}</p>
-            </WeatherBox>
+            if(idx !== 0) {
+              return <WeatherBox key={idx}>
+                <h2>{item.dt_txt.split(' ')[0]}</h2>
+                <p className='ico'><img src={`https://openweathermap.com/img/w/${item.weather[0].icon}.png`} alt="" /></p>
+                <p className='info'>{CodeKoText(item.weather[0].id)}</p>
+              </WeatherBox>
+            } else {return false;}
             
           })
         }
@@ -109,6 +115,6 @@ const Weather:React.FC = () => {
       </Container>
       : <Loading/>
   )
-}
+} 
 
 export default Weather

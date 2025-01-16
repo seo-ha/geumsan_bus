@@ -1,0 +1,613 @@
+[
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "제원/군북방면",
+        "info" : [
+            { "num":"210", "times" : "6:00", "destination" : "신안사,화골,재두" },
+            { "num":"440", "times" : "6:00", "destination" : "산안2,상곡2,보광리" },
+            { "num":"230", "times" : "6:05", "destination" : "원골,용화,대산" },
+            { "num":"740", "times" : "6:40", "destination" : "군북,마전,진산" },
+            { "num":"200", "times" : "7:15", "destination" : "명곡리" },
+            { "num":"250", "times" : "7:40", "destination" : "가선리" },
+            { "num":"440", "times" : "8:10", "destination" : "산안2,상곡2,보광리" },
+            { "num":"220", "times" : "8:35", "destination" : "닥실,금성리,용화,천내" },
+            { "num":"430", "times" : "9:40", "destination" : "메데기,대산" },
+            { "num":"250", "times" : "10:00", "destination" : "가선리" },
+            { "num":"200", "times" : "10:10", "destination" : "명곡리" },
+            { "num":"220", "times" : "10:10", "destination" : "용화,금성리,닥실" },
+            { "num":"420", "times" : "10:30", "destination" : "군북,조정리" },
+            { "num":"440", "times" : "11:45", "destination" : "산안2,상곡2,안보광리" },
+            { "num":"230", "times" : "12:05", "destination" : "용화,금성,천내" },
+            { "num":"250", "times" : "13:00", "destination" : "가선리" },
+            { "num":"200", "times" : "13:00", "destination" : "명곡리" },
+            { "num":"430", "times" : "13:30", "destination" : "메데기" },
+            { "num":"210", "times" : "13:50", "destination" : "대산,신안사" },
+            { "num":"220", "times" : "14:45", "destination" : "용화,금성리" },
+            { "num":"240", "times" : "15:00", "destination" : "천내" },
+            { "num":"420", "times" : "15:45", "destination" : "군북" },
+            { "num":"250", "times" : "16:10", "destination" : "가선리" },
+            { "num":"200", "times" : "16:20", "destination" : "윗배원이,명곡리" },
+            { "num":"420", "times" : "16:30", "destination" : "군북" },
+            { "num":"440", "times" : "17:40", "destination" : "산안2,상곡2,안보광리" },
+            { "num":"220", "times" : "18:15", "destination" : "천내,닥실,금성리" },
+            { "num":"250", "times" : "18:40", "destination" : "가선리" },
+            { "num":"210", "times" : "18:50", "destination" : "대산,재두,화골,신안사" },
+            { "num":"440", "times" : "19:00", "destination" : "산안2,보광리" },
+            { "num":"230", "times" : "19:20", "destination" : "용화" },
+            { "num":"200", "times" : "19:40", "destination" : "명곡리" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "내부리방면",
+        "info" : [ 
+            {"num":"400", "times" : "7:20", "destination" : "내부리" } ,
+            {"num":"410", "times" : "10:10", "destination" : "새터가마실,내부리,의총리,청용안" } ,
+            {"num":"400", "times" : "13:25", "destination" : "내부리" } ,
+            {"num":"410", "times" : "15:20", "destination" : "청용안,의총리,내부리,새터가마실" } ,
+            {"num":"400", "times" : "18:30", "destination" : "내부리,마수,파초" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "부리방면",
+        "info" :  [ 
+            { "num":"330", "times" : "6:00", "destination" : "창평,수통리,라천" },
+            { "num":"320", "times" : "6:10", "destination" : "관천,압수,어재리" },
+            { "num":"360", "times" : "6:20", "destination" : "상평당,가덕" },
+            { "num":"500", "times" : "7:15", "destination" : "호미동,삼태리" },
+            { "num":"340", "times" : "7:40", "destination" : "금고리,갈티,평촌" },
+            { "num":"310", "times" : "8:25", "destination" : "창평,신촌,백암" },
+            { "num":"330", "times" : "8:35", "destination" : "관천,수통리,예미2,물페기" },
+            { "num":"360", "times" : "8:40", "destination" : "관천,상평당" },
+            { "num":"320", "times" : "9:00", "destination" : "관천,어재리" },
+            { "num":"330", "times" : "10:15", "destination" : "수통리,관천,시장" },
+            { "num":"350", "times" : "10:30", "destination" : "창평,백일사,갈티,가덕" },
+            { "num":"320", "times" : "11:10", "destination" : "신촌,어재리,이정리" },
+            { "num":"350", "times" : "12:20", "destination" : "창평,백일사" },
+            { "num":"330", "times" : "12:30", "destination" : "관천,예미2,수통리" },
+            { "num":"300", "times" : "13:20", "destination" : "라천,가덕,관천" },
+            { "num":"360", "times" : "13:40", "destination" : "관천,상평당" },
+            { "num":"330", "times" : "14:00", "destination" : "창평,백암,수통리" },
+            { "num":"500", "times" : "14:10", "destination" : "호미동" },
+            { "num":"320", "times" : "15:00", "destination" : "관천,어재리" },
+            { "num":"350", "times" : "15:30", "destination" : "창평,갈티,백일사" },
+            { "num":"310", "times" : "16:00", "destination" : "이정리,물페기,신촌" },
+            { "num":"330", "times" : "16:50", "destination" : "삼태리,수통리" },
+            { "num":"360", "times" : "17:40", "destination" : "관천,상평당" },
+            { "num":"320", "times" : "17:55", "destination" : "창평,압수,어재리" },
+            { "num":"330", "times" : "19:00", "destination" : "가덕,금고리,수통리" },
+            { "num":"320", "times" : "19:25", "destination" : "창평,어재리" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "진산방면",
+        "info" :  [ 
+            { "num":"730", "times" : "6:00", "destination" : "상탄,진산" }, 
+            { "num":"810", "times" : "6:10", "destination" : "도산,신대리,백암" }, 
+            { "num":"720", "times" : "6:20", "destination" : "석막,건천리" }, 
+            { "num":"760", "times" : "6:50", "destination" : "도산,가든" }, 
+            { "num":"710", "times" : "7:40", "destination" : "엄정,석막" }, 
+            { "num":"810", "times" : "8:10", "destination" : "당디,신대" }, 
+            { "num":"760", "times" : "9:30", "destination" : "상탄,도산,원터" }, 
+            { "num":"940", "times" : "10:00", "destination" : "원터,마전" }, 
+            { "num":"710", "times" : "11:30", "destination" : "만악,석막" }, 
+            { "num":"810", "times" : "12:10", "destination" : "원터,신대,도산" }, 
+            { "num":"740", "times" : "12:45", "destination" : "화림,진산" }, 
+            { "num":"720", "times" : "13:10", "destination" : "건천리" }, 
+            { "num":"810", "times" : "13:40", "destination" : "만악1,신대,도산" }, 
+            { "num":"730", "times" : "14:20", "destination" : "상촌,엄정리,진산" }, 
+            { "num":"760", "times" : "15:00", "destination" : "태고사,도산" }, 
+            { "num":"760", "times" : "15:40", "destination" : "가든,도산" }, 
+            { "num":"730", "times" : "16:20", "destination" : "상탄,엄정리,목골" }, 
+            { "num":"710", "times" : "17:00", "destination" : "석막리" }, 
+            { "num":"810", "times" : "18:05", "destination" : "당디,지방리,신대" }, 
+            { "num":"760", "times" : "19:10", "destination" : "도산" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "마수방면(금성면)",
+        "info" :  [ 
+            { "num":"170", "times" : "6:10", "destination" : "새말,마수,파초,음전" }, 
+            { "num":"170", "times" : "9:40", "destination" : "새말,마수,파초" }, 
+            { "num":"160", "times" : "12:35", "destination" : "음전,장목골,두곡,마수,새말" }, 
+            { "num":"160", "times" : "15:30", "destination" : "장목골,두곡,마수,새말" }, 
+            { "num":"170", "times" : "17:00", "destination" : "파초,마수,새말" }, 
+            { "num":"400", "times" : "18:30", "destination" : "내부리,마수,파초" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "오룡방면(금성면)",
+        "info" :  [ 
+            { "num":"160", "times" : "6:20", "destination" : "장목골,오룡,상지말" }, 
+            { "num":"160", "times" : "8:30", "destination" : "장목골,오룡,음전" }, 
+            { "num":"150", "times" : "17:40", "destination" : "오룡,장목골" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "음전경유장목골",
+        "info" :  [ 
+            { "num":"160", "times" : "6:20", "destination" : "장목골,오룡,상지말" }, 
+            { "num":"160", "times" : "8:30", "destination" : "장목골,오룡,음전" }, 
+            { "num":"160", "times" : "12:35", "destination" : "음전,장목골,두곡,마수,새말" }, 
+            { "num":"160", "times" : "15:30", "destination" : "장목골,두곡,마수,새말" }, 
+            { "num":"150", "times" : "17:40", "destination" : "오룡,장목골" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "상촌,상탄,엄정",
+        "info" :  [ 
+            { "num":"730", "times" : "6:00", "destination" : "상탄,진산" }, 
+            { "num":"710", "times" : "7:40", "destination" : "엄정,진산,석막리" }, 
+            { "num":"760", "times" : "9:30", "destination" : "상탄,도산,원터" }, 
+            { "num":"740", "times" : "12:45", "destination" : "화림,진산" }, 
+            { "num":"730", "times" : "14:20", "destination" : "상촌,엄정리,진산" }, 
+            { "num":"730", "times" : "16:20", "destination" : "상촌,엄정리,목골,진산" }, 
+            { "num":"700", "times" : "18:40", "destination" : "상탄,하엄정" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "남일방면",
+        "info" :  [ 
+            { "num":"540", "times" : "6:00", "destination" : "사기소,신정,평대리" }, 
+            { "num":"530", "times" : "7:10", "destination" : "신정,신동리" }, 
+            { "num":"520", "times" : "8:30", "destination" : "음전,원동,평대리,사미리" }, 
+            { "num":"550", "times" : "8:50", "destination" : "신동,수천리" }, 
+            { "num":"510", "times" : "9:55", "destination" : "신정,신천" }, 
+            { "num":"540", "times" : "11:40", "destination" : "신정,사기소,시장" }, 
+            { "num":"520", "times" : "12:20", "destination" : "평대,원동리,음대" }, 
+            { "num":"510", "times" : "14:00", "destination" : "신정,구시장" }, 
+            { "num":"550", "times" : "14:40", "destination" : "신천,수천리" }, 
+            { "num":"520", "times" : "15:50", "destination" : "평대,원동,음대리" }, 
+            { "num":"530", "times" : "16:30", "destination" : "구시장,신동" }, 
+            { "num":"520", "times" : "17:05", "destination" : "초현,원동" }, 
+            { "num":"540", "times" : "18:15", "destination" : "신정,사기소" }, 
+            { "num":"520", "times" : "18:50", "destination" : "덕천,평대,원동" }, 
+            { "num":"530", "times" : "19:30", "destination" : "신동" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "초현, 부남, 장안리",
+        "info" :  [ 
+            { "num":"560", "times" : "10:50", "destination" : "장안리" }, 
+            { "num":"560", "times" : "14:20", "destination" : "사미리,장안리" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "남이방면",
+        "info" :  [ 
+            { "num":"630", "times" : "6:00", "destination" : "석동,건천리,대양리" }, 
+            { "num":"670", "times" : "6:20", "destination" : "광대정,흑암리,음대리,매곡리" }, 
+            { "num":"610", "times" : "8:10", "destination" : "윗관운리,활골" }, 
+            { "num":"640", "times" : "8:35", "destination" : "석동,역평리" }, 
+            { "num":"650", "times" : "10:10", "destination" : "양대,대양리,시장" }, 
+            { "num":"630", "times" : "11:40", "destination" : "석동,건천리,시장" }, 
+            { "num":"650", "times" : "13:05", "destination" : "양대,활골,대양리,시장" }, 
+            { "num":"650", "times" : "13:50", "destination" : "매곡,양대,대양리" }, 
+            { "num":"620", "times" : "14:35", "destination" : "매곡,윗관운리" }, 
+            { "num":"640", "times" : "15:20", "destination" : "석동,역평리" }, 
+            { "num":"640", "times" : "16:30", "destination" : "시장,석동,역평리" }, 
+            { "num":"610", "times" : "17:50", "destination" : "양대,광대정,활골" }, 
+            { "num":"630", "times" : "18:10", "destination" : "석동,건천리" }, 
+            { "num":"650", "times" : "19:00", "destination" : "양대,대양리" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "와정, 하금",
+        "info" :  [ 
+            { "num":"100", "times" : "7:25", "destination" : "서당골,와정" }, 
+            { "num":"120", "times" : "8:10", "destination" : "어동골" }, 
+            { "num":"100", "times" : "10:20", "destination" : "서당골" }, 
+            { "num":"600", "times" : "11:05", "destination" : "와정,하금" }, 
+            { "num":"100", "times" : "12:10", "destination" : "서당골,어동골" }, 
+            { "num":"110", "times" : "14:00", "destination" : "와정" }, 
+            { "num":"100", "times" : "15:00", "destination" : "서당골" }, 
+            { "num":"110", "times" : "16:35", "destination" : "와정" }, 
+            { "num":"100", "times" : "18:10", "destination" : "서당골,어동골" }, 
+            { "num":"600", "times" : "19:35", "destination" : "와정,하금" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "마전방면",
+        "info" :  [ 
+            { "num":"920", "times" : "6:40", "destination" : "성당리" }, 
+            { "num":"420", "times" : "7:55", "destination" : "마전,군북,제원" }, 
+            { "num":"760", "times" : "8:15", "destination" : "마전,태고사,도산" }, 
+            { "num":"900", "times" : "8:50", "destination" : "마전,못골,대암리" }, 
+            { "num":"920", "times" : "10:00", "destination" : "서대산" }, 
+            { "num":"930", "times" : "11:00", "destination" : "마전,군북" }, 
+            { "num":"750", "times" : "11:40", "destination" : "마전,못골,진산" }, 
+            { "num":"920", "times" : "12:00", "destination" : "서대산" }, 
+            { "num":"750", "times" : "13:10", "destination" : "장대리,진산" }, 
+            { "num":"930", "times" : "14:05", "destination" : "대암리,마전,군북" }, 
+            { "num":"920", "times" : "16:00", "destination" : "서대산" }, 
+            { "num":"930", "times" : "17:30", "destination" : "군북,진산,건천리" }, 
+            { "num":"920", "times" : "18:10", "destination" : "서대산" }, 
+            { "num":"900", "times" : "19:45", "destination" : "마전" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "초미동방면",
+        "info" :  [ 
+            { "num":"910", "times" : "8:50", "destination" : "마전,서대리,군북" }, 
+            { "num":"910", "times" : "11:30", "destination" : "초미동,마전" }, 
+            { "num":"910", "times" : "12:50", "destination" : "초미동,마전,진산" }, 
+            { "num":"910", "times" : "16:40", "destination" : "초미동,마전" }, 
+            { "num":"910", "times" : "19:30", "destination" : "초미동,마전" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "대 암 리",
+        "info" :  [ 
+            { "num":"900", "times" : "9:35", "destination" : "마전 발 대암리" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "금산",
+        "arrPlaceNm" : "복수방면",
+        "info" :  [ 
+            { "num":"800", "times" : "6:00", "destination" : "상지말,알미,못안,둑실,초미동,목소리" }, 
+            { "num":"800", "times" : "10:10", "destination" : "상지말,알미,못안,둑실,초미동,목소리" }, 
+            { "num":"800", "times" : "17:30", "destination" : "상지말,알미,못안,가칠리,둑실,초미동,목소리" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "제원방면",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "6:25", "destination" : "원골 발 용화,대산경유" },
+            { "num":"", "times" : "6:30", "destination" : "신안사 발 화골,재두경유" },
+            { "num":"", "times" : "6:35", "destination" : "보광리발(산안,상곡경유),군북(07:05)" },
+            { "num":"", "times" : "7:35", "destination" : "명곡리 발 제원(07:50)" },
+            { "num":"", "times" : "8:00", "destination" : "가선리 발" },
+            { "num":"", "times" : "8:55", "destination" : "군북 발" },
+            { "num":"", "times" : "9:00", "destination" : "금성리 발 용화1,2경유,천내경유" },
+            { "num":"", "times" : "9:05", "destination" : "보광리 발 군북(09:20)" },
+            { "num":"", "times" : "10:10", "destination" : "메데기 발 군북(10:20) 대산경유" },
+            { "num":"", "times" : "10:30", "destination" : "가선리 발" },
+            { "num":"", "times" : "10:30", "destination" : "명곡리 발 송림" },
+            { "num":"", "times" : "10:40", "destination" : "금성리 발 닥실경유" },
+            { "num":"", "times" : "11:10", "destination" : "조정리 발 군북경유" },
+            { "num":"", "times" : "12:35", "destination" : "금성리 발 닥실,천내경유" },
+            { "num":"", "times" : "13:00", "destination" : "보광리 발 군북경유" },
+            { "num":"", "times" : "13:25", "destination" : "가선리 발" },
+            { "num":"", "times" : "13:25", "destination" : "명곡리 발 송림" },
+            { "num":"", "times" : "14:05", "destination" : "메데기 발" },
+            { "num":"", "times" : "14:30", "destination" : "신안사 발 대산경유" },
+            { "num":"", "times" : "15:10", "destination" : "용화2 발 금성리(15:15),올때용화로" },
+            { "num":"", "times" : "15:25", "destination" : "천내 발" },
+            { "num":"", "times" : "16:20", "destination" : "군북 발" },
+            { "num":"", "times" : "16:35", "destination" : "가선리 발" },
+            { "num":"", "times" : "16:50", "destination" : "명곡리 발 송림" },
+            { "num":"", "times" : "17:05", "destination" : "군북 발" },
+            { "num":"", "times" : "18:45", "destination" : "보광리 발 군북" },
+            { "num":"", "times" : "18:45", "destination" : "금성리 발 닥실경유" },
+            { "num":"", "times" : "19:05", "destination" : "가선리 발" },
+            { "num":"", "times" : "19:30", "destination" : "신안사 발" },
+            { "num":"", "times" : "19:45", "destination" : "용화2 발" },
+            { "num":"", "times" : "19:50", "destination" : "보광리 발 군북(20:02)" },
+            { "num":"", "times" : "20:00", "destination" : "명곡리 발 송림" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "부리방면",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "6:30", "destination" : "수통리 발 창평,라천경유" }, 
+            { "num":"", "times" : "6:40", "destination" : "어재리 발 관천 " }, 
+            { "num":"", "times" : "6:50", "destination" : "상평당 발 가덕경유" }, 
+            { "num":"", "times" : "7:30", "destination" : "호미동 발 삼태리경유" }, 
+            { "num":"", "times" : "8:00", "destination" : "금고리 발 갈티,평촌(08:10),관천경유" }, 
+            { "num":"", "times" : "9:00", "destination" : "신촌 발 창평,백암경유" }, 
+            { "num":"", "times" : "9:10", "destination" : "수통리 발 예미2,물페기,관천경유" }, 
+            { "num":"", "times" : "9:10", "destination" : "상평당 발 관천" }, 
+            { "num":"", "times" : "9:35", "destination" : "어재리 발 관천경유" }, 
+            { "num":"", "times" : "10:55", "destination" : "수통발 관천,구시장경유 " }, 
+            { "num":"", "times" : "11:05", "destination" : "백일사 발 갈티,가덕 창평 " }, 
+            { "num":"", "times" : "11:50", "destination" : "어재리발 이정리경유 관천" }, 
+            { "num":"", "times" : "12:55", "destination" : "백일사 발 창평" }, 
+            { "num":"", "times" : "13:10", "destination" : "수통리 발 관천" }, 
+            { "num":"", "times" : "13:50", "destination" : "(라천가덕경유) 관천 발" }, 
+            { "num":"", "times" : "14:20", "destination" : "상평당 발 관천" }, 
+            { "num":"", "times" : "14:30", "destination" : "호미동 발 황풍" }, 
+            { "num":"", "times" : "14:50", "destination" : "수통리 발 창평" }, 
+            { "num":"", "times" : "15:40", "destination" : "어재리 발 관천" }, 
+            { "num":"", "times" : "16:05", "destination" : "백일사 발 창평" }, 
+            { "num":"", "times" : "16:40", "destination" : "신촌 발 관천" }, 
+            { "num":"", "times" : "17:35", "destination" : "수통리 발 관천" }, 
+            { "num":"", "times" : "18:20", "destination" : "상평당 발 관천" }, 
+            { "num":"", "times" : "18:35", "destination" : "어재리 발 창평" }, 
+            { "num":"", "times" : "19:40", "destination" : "수통리 발 관천" }, 
+            { "num":"", "times" : "19:55", "destination" : "어재리 발 창평" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "조정리",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "11:10", "destination" : "조정리 발 군북" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "남일방면",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "6:30", "destination" : "사기소 발 신정,평대경유" }, 
+            { "num":"", "times" : "7:40", "destination" : "(신정경유)신동 발 " }, 
+            { "num":"", "times" : "9:00", "destination" : "원동 발 평대,사미경유" }, 
+            { "num":"", "times" : "9:30", "destination" : "수천리 발 신동" }, 
+            { "num":"", "times" : "10:25", "destination" : "신정 발 신천경유" }, 
+            { "num":"", "times" : "12:20", "destination" : "사기소 발 구시장경유" }, 
+            { "num":"", "times" : "12:50", "destination" : "원동 발 음대" }, 
+            { "num":"", "times" : "14:35", "destination" : "신정리 발 구시장" }, 
+            { "num":"", "times" : "15:25", "destination" : "수천리 발 신동" }, 
+            { "num":"", "times" : "16:30", "destination" : "원동리 발 음대경유" }, 
+            { "num":"", "times" : "17:10", "destination" : "신동리 발" }, 
+            { "num":"", "times" : "17:40", "destination" : "원동리 발 " }, 
+            { "num":"", "times" : "18:55", "destination" : "(신정경유) 사기소 발" }, 
+            { "num":"", "times" : "19:20", "destination" : "원동 발 평대경유" }, 
+            { "num":"", "times" : "20:00", "destination" : "신동리 발" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "서당,어동,와정",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "7:40", "destination" : "서당골 발 와정경유" },
+            { "num":"", "times" : "8:25", "destination" : "어동골 발" }, 
+            { "num":"", "times" : "10:35", "destination" : "서당골 발" }, 
+            { "num":"", "times" : "11:25", "destination" : "하금 발 와정" }, 
+            { "num":"", "times" : "12:25", "destination" : "서당골 발 어동골경유" }, 
+            { "num":"", "times" : "14:15", "destination" : "와정 발" }, 
+            { "num":"", "times" : "15:20", "destination" : "서당골 발" }, 
+            { "num":"", "times" : "16:50", "destination" : "와정 발" },
+            { "num":"", "times" : "18:30", "destination" : "서당골 발 어동골경유" }, 
+            { "num":"", "times" : "20:00", "destination" : "하금 발 와정" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "남이방면",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "6:40", "destination" : "건천리 발 대양리경유 석동" }, 
+            { "num":"", "times" : "6:40", "destination" : "광대정 발 흑암리,음대,매곡경유" }, 
+            { "num":"", "times" : "9:10", "destination" : "(윗관운리경유)활골 발" }, 
+            { "num":"", "times" : "9:10", "destination" : "역평 발 석동" }, 
+            { "num":"", "times" : "10:50", "destination" : "대양리 발 양대,구시장" }, 
+            { "num":"", "times" : "12:30", "destination" : "건천리 발 석동,구시장" }, 
+            { "num":"", "times" : "14:10", "destination" : "(활골)대양리 발 양대,구시장" }, 
+            { "num":"", "times" : "14:50", "destination" : "대양리 발 양대" }, 
+            { "num":"", "times" : "15:35", "destination" : "(매곡)윗관운리 발 양대" }, 
+            { "num":"", "times" : "15:55", "destination" : "역평 발 석동" }, 
+            { "num":"", "times" : "17:10", "destination" : "역평 발 석동" }, 
+            { "num":"", "times" : "18:40", "destination" : "(광대정)활골 발 양대" }, 
+            { "num":"", "times" : "18:55", "destination" : "건천리 발 석동" }, 
+            { "num":"", "times" : "19:30", "destination" : "대양리 발 양대" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "서대산",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "7:17", "destination" : "성당 발 마전까지" }, 
+            { "num":"", "times" : "8:00", "destination" : "서대산 발 마전,군북" }, 
+            { "num":"", "times" : "9:55", "destination" : "서대산 발 마전,군북" }, 
+            { "num":"", "times" : "10:45", "destination" : "서대산 발 마전,진산,금산" }, 
+            { "num":"", "times" : "12:50", "destination" : "서대산 발 마전,금산" }, 
+            { "num":"", "times" : "14:40", "destination" : "서대산 발 마전,진산" }, 
+            { "num":"", "times" : "16:45", "destination" : "서대산 발 마전,금산" }, 
+            { "num":"", "times" : "19:00", "destination" : "서대산 발 마전,군북,내부리" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "복수방면",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "6:50", "destination" : "목소리,초미동,둑실,가칠리,못안,알미,상지말" }, 
+            { "num":"", "times" : "11:05", "destination" : "목소리,마전,초미동,둑실,못안,알미,상지말" }, 
+            { "num":"", "times" : "18:20", "destination" : "목소리,초미동,둑실,못안,알미,상지말" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "진산방면",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "7:00", "destination" : "건천리 발 진산(07:25),금산" }, 
+            { "num":"", "times" : "8:30", "destination" : "석막 발 진산(08:50)" }, 
+            { "num":"", "times" : "12:20", "destination" : "석막 발 진산(12:50),마전" }, 
+            { "num":"", "times" : "14:05", "destination" : "건천리 발 진산(14:30),금산" }, 
+            { "num":"", "times" : "17:50", "destination" : "석막 발 진산(18:10),금산" }, 
+            { "num":"", "times" : "19:30", "destination" : "건천리 발 건천에서금산직진 " }, 
+            { "num":"", "times" : "6:45", "destination" : "도산 발 백암,진산(07:15) 마전" }, 
+            { "num":"", "times" : "7:40", "destination" : "도산 발 진산(08:00) 마전" }, 
+            { "num":"", "times" : "9:05", "destination" : "신대 발 진산(09:30),금산" }, 
+            { "num":"", "times" : "9:30", "destination" : "도산 발 진산(09:50),금산" }, 
+            { "num":"", "times" : "10:35", "destination" : "도산 발 진산(10:55),금산" }, 
+            { "num":"", "times" : "13:10", "destination" : "신대 발 도산(13:35),진산" }, 
+            { "num":"", "times" : "14:45", "destination" : "신대 발 도산(15:10),진산" }, 
+            { "num":"", "times" : "16:00", "destination" : "도산 발 진산(16:20),금산" }, 
+            { "num":"", "times" : "16:50", "destination" : "도산 발 진산(17:10),금산" }, 
+            { "num":"", "times" : "19:00", "destination" : "신대 발 진산(19:20),마전" }, 
+            { "num":"", "times" : "19:45", "destination" : "도산 발 진산(20:00),금산" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "장목골,오룡,내부,마수",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"", "times" : "6:25", "destination" : "마수 파초,음전경유" }, 
+            { "num":"", "times" : "6:40", "destination" : "장목골 발 오룡,상지말" },
+            { "num":"", "times" : "7:30", "destination" : "내부리 발" }, 
+            { "num":"", "times" : "8:50", "destination" : "장목골 발 오룡,음전경유" }, 
+            { "num":"", "times" : "10:20", "destination" : "새터가마실 발 내부리,의총리,청용안경유" }, 
+            { "num":"", "times" : "12:50", "destination" : "마수 새말경유" }, 
+            { "num":"", "times" : "13:40", "destination" : "내부리 발" }, 
+            { "num":"", "times" : "15:45", "destination" : "마수 새말경유" }, 
+            { "num":"", "times" : "17:15", "destination" : "마수 새말경유" }, 
+            { "num":"", "times" : "18:10", "destination" : "장목골 발" }, 
+            { "num":"", "times" : "18:45", "destination" : "마수  파초경유" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "마전",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"810", "times" : "7:35", "destination" : "" }, 
+            { "num":"760", "times" : "8:20", "destination" : "" }, 
+            { "num":"900", "times" : "9:35", "destination" : "" }, 
+            { "num":"940", "times" : "10:50", "destination" : "" }, 
+            { "num":"910", "times" : "11:20", "destination" : "" }, 
+            { "num":"930", "times" : "12:20", "destination" : "" }, 
+            { "num":"920", "times" : "13:20", "destination" : "" }, 
+            { "num":"710", "times" : "14:30", "destination" : "" }, 
+            { "num":"750", "times" : "15:00", "destination" : "" }, 
+            { "num":"810", "times" : "16:00", "destination" : "" }, 
+            { "num":"920", "times" : "17:05", "destination" : "" }, 
+            { "num":"930", "times" : "17:40", "destination" : "" }, 
+            { "num":"730", "times" : "18:10", "destination" : "" }, 
+            { "num":"810", "times" : "19:40", "destination" : "" }, 
+            { "num":"900", "times" : "20:05", "destination" : "" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "마전",
+        "arrPlaceNm" : "진산",
+        "info" :  [ 
+            { "num":"740", "times" : "7:35", "destination" : "" }, 
+            { "num":"760", "times" : "8:35", "destination" : "" }, 
+            { "num":"920", "times" : "11:05", "destination" : "" }, 
+            { "num":"750", "times" : "12:25", "destination" : "" }, 
+            { "num":"910", "times" : "13:25", "destination" : "" }, 
+            { "num":"750", "times" : "14:10", "destination" : "" }, 
+            { "num":"810", "times" : "15:10", "destination" : "" }, 
+            { "num":"730", "times" : "17:25", "destination" : "" }, 
+            { "num":"930", "times" : "19:00", "destination" : "" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "마전",
+        "arrPlaceNm" : "군북",
+        "info" :  [ 
+            { "num":"420", "times" : "8:20", "destination" : "" }, 
+            { "num":"920", "times" : "8:30", "destination" : "" }, 
+            { "num":"910", "times" : "10:15", "destination" : "" }, 
+            { "num":"930", "times" : "11:20", "destination" : "" }, 
+            { "num":"710", "times" : "13:10", "destination" : "" }, 
+            { "num":"930", "times" : "14:35", "destination" : "" }, 
+            { "num":"930", "times" : "15:50", "destination" : "" }, 
+            { "num":"930", "times" : "17:55", "destination" : "" }, 
+            { "num":"920", "times" : "19:30", "destination" : "" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "마전",
+        "arrPlaceNm" : "서대산",
+        "info" :  [ 
+            { "num":"920", "times" : "7:00", "destination" : "" }, 
+            { "num":"920", "times" : "7:40", "destination" : "" }, 
+            { "num":"910", "times" : "9:35", "destination" : "" }, 
+            { "num":"920", "times" : "10:25", "destination" : "" }, 
+            { "num":"920", "times" : "12:25", "destination" : "" }, 
+            { "num":"810", "times" : "14:20", "destination" : "" }, 
+            { "num":"920", "times" : "16:25", "destination" : "" }, 
+            { "num":"920", "times" : "18:40", "destination" : "" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "진산",
+        "arrPlaceNm" : "마전",
+        "info" :  [ 
+            { "num":"810", "times" : "7:15", "destination" : "" }, 
+            { "num":"760", "times" : "8:00", "destination" : "" }, 
+            { "num":"940", "times" : "10:30", "destination" : "" }, 
+            { "num":"710", "times" : "12:50", "destination" : "" }, 
+            { "num":"810", "times" : "13:55", "destination" : "" }, 
+            { "num":"750", "times" : "14:35", "destination" : "" }, 
+            { "num":"810", "times" : "15:30", "destination" : "" }, 
+            { "num":"730", "times" : "17:00", "destination" : "" }, 
+            { "num":"730", "times" : "17:50", "destination" : "" }, 
+            { "num":"810", "times" : "19:20", "destination" : "" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "진산",
+        "arrPlaceNm" : "금산",
+        "info" :  [ 
+            { "num":"730", "times" : "6:30", "destination" : "" }, 
+            { "num":"720", "times" : "7:25", "destination" : "" }, 
+            { "num":"740", "times" : "7:55", "destination" : "" }, 
+            { "num":"710", "times" : "8:50", "destination" : "" }, 
+            { "num":"810", "times" : "9:30", "destination" : "" }, 
+            { "num":"760", "times" : "9:50", "destination" : "" }, 
+            { "num":"760", "times" : "10:55", "destination" : "" }, 
+            { "num":"920", "times" : "11:30", "destination" : "" }, 
+            { "num":"750", "times" : "12:50", "destination" : "" }, 
+            { "num":"730", "times" : "13:20", "destination" : "" }, 
+            { "num":"910", "times" : "13:50", "destination" : "" }, 
+            { "num":"720", "times" : "14:30", "destination" : "" }, 
+            { "num":"730", "times" : "15:05", "destination" : "" }, 
+            { "num":"810", "times" : "15:55", "destination" : "" }, 
+            { "num":"760", "times" : "16:20", "destination" : "" }, 
+            { "num":"760", "times" : "17:10", "destination" : "" }, 
+            { "num":"710", "times" : "18:10", "destination" : "" }, 
+            { "num":"760", "times" : "20:00", "destination" : "" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "마전",
+        "arrPlaceNm" : "초미동",
+        "info" :  [ 
+            { "num":"920", "times" : "10:20", "destination" : "초미동,금산" }, 
+            { "num":"910", "times" : "12:05", "destination" : "초미동,금산" }, 
+            { "num":"910", "times" : "17:15", "destination" : "초미동,금산" }, 
+            { "num":"910", "times" : "20:00", "destination" : "초미동,금산" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "마전",
+        "arrPlaceNm" : "장대리",
+        "info" :  [ 
+            { "num":"920", "times" : "9:50", "destination" : "장대리" }, 
+            { "num":"750", "times" : "13:30", "destination" : "장대리" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "마전",
+        "arrPlaceNm" : "군북,천을리",
+        "info" :  [ 
+            { "num":"710", "times" : "13:10", "destination" : "" } 
+        ]
+    },
+    {   
+        "depPlaceNm" : "군북",
+        "arrPlaceNm" : "마전",
+        "info" :  [ 
+            { "num":"740", "times" : "7:05", "destination" : "" }, 
+            { "num":"920", "times" : "9:10", "destination" : "" }, 
+            { "num":"910", "times" : "10:50", "destination" : "" }, 
+            { "num":"930", "times" : "11:50", "destination" : "" }, 
+            { "num":"930", "times" : "15:10", "destination" : "" }, 
+            { "num":"930", "times" : "17:10", "destination" : "" }, 
+            { "num":"930", "times" : "18:25", "destination" : "" }
+        ]
+    },
+    {   
+        "depPlaceNm" : "천을리",
+        "arrPlaceNm" : "마전",
+        "info" :  [ 
+            { "num":"710", "times" : "13:50", "destination" : "" } 
+        ]
+    }
+]
