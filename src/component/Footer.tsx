@@ -44,10 +44,10 @@ const Footer:React.FC = () => {
   
   return (
     <FooterStyle>
-        <Link to={'/geumsan_bus/'} className={activeLink === '/geumsan_bus/' ? "on" : ""} onClick={onClickLink}> {activeLink === '/' ? < IoBus/> : < IoBusOutline/> } <span>시외/고속</span></Link>
-        <Link to={'/geumsan_bus/Express'} className={activeLink === '/geumsan_bus/expressBus' ? "on" : ""} onClick={onClickLink}> {activeLink === '/Express' ? < IoBus/> : < IoBusOutline/> } <span>공공버스</span></Link>
-        <Link to={'/geumsan_bus/Citybus'} className={activeLink === '/geumsan_bus/cityBus' ? "on" : ""} onClick={onClickLink}>{activeLink === '/Citybus' ? < IoBus/> : < IoBusOutline/> } <span>시내버스</span></Link>
-        <Link to={'/geumsan_bus/Weather'} className={activeLink === '/geumsan_bus/weather' ? "on" : ""} onClick={onClickLink}>{activeLink === '/Weather' ? < PiCloudSunFill/> : < PiCloudSunBold/> } <span>날씨</span></Link>
+        <Link to={'/'} className={activeLink === '/' ? "on" : ""} onClick={onClickLink}> {activeLink === '/' ? < IoBus/> : < IoBusOutline/> } <span>시외/고속</span></Link>
+        <Link to={'/Express'} className={activeLink === '/expressBus' ? "on" : ""} onClick={onClickLink}> {activeLink === '/Express' ? < IoBus/> : < IoBusOutline/> } <span>공공버스</span></Link>
+        <Link to={'/Citybus'} className={activeLink === '/cityBus' ? "on" : ""} onClick={onClickLink}>{activeLink === '/Citybus' ? < IoBus/> : < IoBusOutline/> } <span>시내버스</span></Link>
+        <Link to={'/Weather'} className={activeLink === '/weather' ? "on" : ""} onClick={onClickLink}>{activeLink === '/Weather' ? < PiCloudSunFill/> : < PiCloudSunBold/> } <span>날씨</span></Link>
     </FooterStyle>
   )
 }
