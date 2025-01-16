@@ -72,7 +72,7 @@ const Citybus:React.FC = () => {
               ? (busData.map((item:any) => {
                 return item.info.map((el:any, idx : number)=>{
                   return <li key={idx}>
-                      <p className='name'><small>{el.num}</small> {item.depPlaceNm} - {item.arrPlaceNm}</p>
+                      <p className='name'>{el.num ? <small>{el.num}</small> :''} {item.depPlaceNm} - {item.arrPlaceNm}</p>
                       <p className='destination'>{ el.destination === '' ? item.destination : el.destination }</p>
                       <p className='time'>{el.times}</p>
                   </li>
@@ -84,7 +84,7 @@ const Citybus:React.FC = () => {
             : (selectBusData.map((item:any) => {
                 return item.info.map((el:any, idx : number)=>{
                   return <li key={idx}>
-                      <p className='name'><small>{el.num}</small> {item.depPlaceNm} - {item.arrPlaceNm}</p>
+                      <p className='name'>{el.num ? <small>{el.num}</small> :''} {item.depPlaceNm} - {item.arrPlaceNm}</p>
                       <p className='destination'>{ el.destination === '' ? item.destination : el.destination }</p>
                       <p className='time'>{el.times}</p>
                   </li>
