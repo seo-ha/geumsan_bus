@@ -1,8 +1,8 @@
 import axios from 'axios';
 import React,{useEffect,useState} from 'react'
-import Selectcity from './Selectcity.tsx';
-import Loading from './Loading.tsx';
-import Selectpop from './Selectpop.tsx';
+import Selectcity from '../component/Selectcity.tsx';
+import Loading from '../component/Loading.tsx';
+import Selectpop from '../component/Selectpop.tsx';
 import {Container,BusInfo,Nolist,GradeNm} from '../css/style.ts'
 import {BusItem, handleSelectButton, filterBusData, CitySelection, TerminalState } from '../utils/Select.ts';
 

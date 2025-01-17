@@ -1,7 +1,7 @@
 import React, {useEffect,useState} from 'react'
 import axios from 'axios'
 import {weatherDescKo} from '../json/weatherKo.ts'
-import Loading from './Loading.tsx';
+import Loading from '../component/Loading.tsx';
 import styled from 'styled-components';
 
 const Container = styled.ul `

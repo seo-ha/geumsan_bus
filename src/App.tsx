@@ -1,11 +1,11 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import styled from 'styled-components';
-import Intercity from './component/Intercity.tsx';
-import Express from './component/Express.tsx';
-import Citybus from './component/Citybus.tsx';
-import Weather from './component/Weather.tsx';
+import Intercity from './page/Intercity.tsx';
+import Express from './page/Express.tsx';
+import Citybus from './page/Citybus.tsx';
+import Weather from './page/Weather.tsx';
 import Footer from './component/Footer.tsx';
 
 const Header =  styled.header `

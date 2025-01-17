@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
-import Selectcity from './Selectcity.tsx'
-import Selectpop from './Selectpop.tsx'
+import Selectcity from '../component/Selectcity.tsx'
+import Selectpop from '../component/Selectpop.tsx'
 import {BusItem, handleSelectButton, filterBusData, CitySelection, TerminalState } from '../utils/Select.ts';
 import {Container,BusInfo,Nolist,Caption} from '../css/style.ts'
 
