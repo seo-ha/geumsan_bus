@@ -104,7 +104,7 @@ const Intercity:React.FC = () => {
                                 {
                                     item.destination ? <p className='destination'>{item.destination}</p> : ''
                                 } 
-                                <p className='charge'> {parseInt(item.charge).toLocaleString()}원</p>
+                                <p className='charge'> {item.charge !== '' ? parseInt(item.charge).toLocaleString()+'원' : ''}</p>
                                 <p className='time'>
                                     <small>출발시간 {item.arrPlandTime ? ' - 도착시간' : ''}</small>
                                     {
@@ -124,7 +124,8 @@ const Intercity:React.FC = () => {
                     : selectBusData.length === 0 ? (<Nolist>노선이 없습니다.</Nolist>)
 
                        : (selectBusData.map((item) => {
-                            return item.times.map((el,idx)=> {
+                        const times = item.times || [null];
+                            return times.map((el,idx)=> {
                                 return <li key={idx}>
                                     <p className='name'>{item.depPlaceNm} - {item.arrPlaceNm}</p>
                                     <GradeNm $fontcolor={item.gradeNm === '고속' ? '#a10f0f' : item.gradeNm === '우등' ? '#b5830d' : '#999'}>
