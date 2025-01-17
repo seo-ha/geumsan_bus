@@ -39,7 +39,7 @@ const Footer:React.FC = () => {
     useEffect(() => {
       const currentPrams = location.pathname; // URL 쿼리 가져오기
       setActiveLink(currentPrams);
-      console.log(currentPrams);
+      // console.log(currentPrams);
       
     }, [location]);
 
