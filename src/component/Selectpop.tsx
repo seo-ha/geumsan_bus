@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { css } from 'styled-components'
 
 const SelectPop = styled.div `
-    position: fixed; top: 0; left: 0; width: 0; height: 0; overflow:hidden; z-index: 1;transition: .3s; 
+    position: fixed; top: 0; left: 0; width: 0; height: 0; overflow:hidden; z-index: 10;transition: .3s; 
 
     .bg {
         position: fixed; top: 0; left: 0; width: 100%; height: 100dvh; background-color: rgba(0,0,0,0.5);transition: .3s; }
